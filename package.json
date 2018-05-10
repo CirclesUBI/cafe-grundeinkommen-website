@@ -8,13 +8,14 @@
         "universal basic income",
         "berlin",
         "circles",
+        "CirclesUBI",
         "germany",
-        "cafe"
+        "cafe",
+        "website"
     ],
     "homepage": "https://www.cafe-grundeinkommen.org",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/CirclesUBI/cafe-grundeinkommen-website/issues"
     },
     "license": "MIT",
     "author": "edzillion@gmail.com",
@@ -23,7 +24,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
+        "url": "https://github.com/CirclesUBI/cafe-grundeinkommen-website.git"
     },
     "dependencies": {
         "bootstrap": "4.1.1",

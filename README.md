@@ -10,7 +10,7 @@ Come visit us online or in the flesh:
 
 ## Status
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/CirclesUBI/cafe-grundeinkommen-website/master/LICENSE)
 [![Build Status](https://travis-ci.org/CirclesUBI/cafe-grundeinkommen-website.svg?branch=master)](https://travis-ci.org/CirclesUBI/cafe-grundeinkommen-website)
 
 

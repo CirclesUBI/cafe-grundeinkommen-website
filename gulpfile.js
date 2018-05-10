@@ -136,5 +136,5 @@ gulp.task('browserSync', function() {
 gulp.task('dev', ['css', 'js', 'vendor', 'files', 'browserSync'], function() {
   gulp.watch('./scss/*.scss', ['css']);
   gulp.watch('./js/*.js', ['js']);
-  gulp.watch('./*.html', browserSync.reload);
+  gulp.watch('./*.html', ['files',browserSync.reload]);
 });

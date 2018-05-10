@@ -100,7 +100,7 @@ gulp.task('js:minify', function() {
     .pipe(browserSync.stream());
 });
 
-gulp.task('files', function () {
+gulp.task('files:main', function () {
   return gulp.src([
       './img//**/*',
       './mail//**/*',
@@ -108,6 +108,14 @@ gulp.task('files', function () {
     ], {base: './'}) 
     .pipe(gulp.dest(buildDir));
 });
+
+gulp.task('files:favicons', function () {
+  return gulp.src('./favicons//**/*')
+    .pipe(gulp.dest(buildDir));
+});
+
+// Move files to build
+gulp.task('files', ['files:main', 'files:favicons']);
 
 // JS
 gulp.task('js', ['js:minify']);

@@ -1,4 +1,4 @@
-# [Café Grundeinkommen](https://startbootstrap.com/template-overviews/agency/)
+# Café Grundeinkommen
 
 ## Berlin's Basic Income Café!
 

@@ -1,11 +1,22 @@
-sudo:          false
-language:      node_js
+sudo: false
+language: node_js
 node_js:
   - "node"
-install:       npm install
+install: npm install
 script:
   - npm test
   - gulp
 cache:
   directories:
     - node_modules
+deploy:
+  provider: s3
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
+  bucket: www.cafe-grundeinkommen.org
+  region: ap-northeast-1
+  endpoint: www.cafe-grundeinkommen.org.s3-website.eu-central-1.amazonaws.com
+  detect_encoding: true
+  on:
+    branch: master
+  region: eu-central-1

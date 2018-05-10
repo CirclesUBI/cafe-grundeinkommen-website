@@ -9,6 +9,8 @@ script:
 cache:
   directories:
     - node_modules
+# Deploy using awscli to enable pruning of removed files
+before_deploy: pip install --user awscli
 deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY

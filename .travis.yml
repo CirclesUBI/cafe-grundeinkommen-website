@@ -19,7 +19,7 @@ deploy:
   skip_cleanup: true
   local_dir: build
   acl: public_read
-  endpoint: www.cafe-grundeinkommen.org.s3-website.eu-central-1.amazonaws.com
+  endpoint: https://www.cafe-grundeinkommen.org.s3-website.eu-central-1.amazonaws.com
   on:
     branch: master
   region: eu-central-1

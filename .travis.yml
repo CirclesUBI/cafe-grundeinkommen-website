@@ -1,16 +1,17 @@
-sudo: false
+sudo: required
 language: node_js
 node_js:
   - "node"
-install: npm install
-script:
-  - npm test
-  - gulp
 cache:
   directories:
     - node_modules
+install:
+  - sudo pip install awscli
+before_script:
+  - npm install
+  - npm test
+  - gulp
 # Deploy using awscli to enable pruning of removed files
-before_deploy: pip install --user awscli
 deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY_ID
